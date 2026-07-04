@@ -78,12 +78,5 @@ La iteración continúa hasta que:
 ##  **Contenido**
 
 - `pagerank.py` — implementación completa  
-- `corpus0/`, `corpus1/`, `corpus2/` — conjuntos de prueba  
-
+- `corpus0/`, `corpus1/`, `corpus2/` — conjuntos de prueba
 ---
-
-
-
----
-
-Si quieres, puedo generar una versión **más técnica**, **más corta**, o **con diagramas matemáticos**.
