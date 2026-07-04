@@ -19,6 +19,9 @@ P(\text{next page}) =
 \end{cases}
 \]
 
+![Imagen ](1.png)
+
+
 Donde:
 
 - \( d \) = damping factor (0.85)  
@@ -36,6 +39,9 @@ El PageRank estimado es:
 PR(p) = \frac{\text{visitas a } p}{n}
 \]
 
+![Imagen ](2.png)
+
+
 ---
 
 ## **PageRank por Iteración**
@@ -45,6 +51,9 @@ El valor de cada página se actualiza hasta converger:
 \[
 PR(p) = \frac{1 - d}{N} + d \sum_{q \in M(p)} \frac{PR(q)}{L(q)}
 \]
+
+![Imagen ](3.png)
+
 
 Donde:
 
@@ -60,6 +69,9 @@ La iteración continúa hasta que:
 \[
 |PR_{\text{nuevo}}(p) - PR_{\text{anterior}}(p)| < 0.001
 \]
+
+![Imagen ](4.png)
+
 
 ---
 
